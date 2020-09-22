@@ -15,4 +15,4 @@ Sample Dataset: http://www.fakenewschallenge.org/ (News Article dataset)
 ### Team: 
 
 Ujjwal Singh, Suchet Aggarwal, Pragya Sethi.
-IIIT Delhi.
+<br>IIIT Delhi.
