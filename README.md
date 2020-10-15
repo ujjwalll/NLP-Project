@@ -1,16 +1,18 @@
 # NLP-Project
 
-## Stance Detection of NEWS articles. (Working Title)
+## Aspect-based Sentiment Analysis. (Working Title)
 
 ### About:
 
-Stance detection is the task of automatically determining from text whether the author
-of the text is in favor of, against, or neutral towards a proposition or target. The target
-may be a person, an organization, a government policy, a movement, a product, etc.
+This task is concerned with aspect-based sentiment analysis (ABSA), where the
+goal is to identify the aspects of given target entities and the sentiment
+expressed towards each aspect. Datasets consisting of customer reviews with
+human-authored annotations identifying the mentioned aspects of the target
+entities and the sentiment polarity of each aspect will be provided.
 
 ### Dataset used
 
-Sample Dataset: http://www.fakenewschallenge.org/ (News Article dataset)
+Sample Dataset: http://alt.qcri.org/semeval2014/task4/index.php?id=data-and-tools
 
 ### Team: 
 
