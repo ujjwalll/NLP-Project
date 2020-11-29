@@ -1,0 +1,10 @@
+1. The model uses BERT embeddings for the given sentence. These embeddings are passed to a multihead self attention network
+Reasons:
+	1. The Aspect terms and the corresponding words that express the target sentiment are modelled effeciently, with representation for each being weighted by the corresponding terms.
+	2. For terms that are not relevant for aspect extraction, are weighed accordingly with a lesser value, thus increasing the performance.
+
+2. The model passes the output from the Self attention network to a feed forward network, that passes it a classifier that predicts the label for each token.
+
+3. The loss function for the final classifier is class-weighted, i.e. each class has a weight factor for the loss corresponding to that class. This allows for handling the class imbalanced data, as the aspect terms are quite less in comparison to the non-aspect terms
+
+Modelling the problem in this way can help improve cross domain applications and model trained on one domain (for example: Restraunts) can be applied to other (for example: Hotels).
